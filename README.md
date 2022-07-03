@@ -9,7 +9,7 @@
 
 ## Overview to deploy React/Node app to Heroku
 
-follow along here: https://youtu.be/1XmIAYkxPUc
+#### Follow along here: https://youtu.be/1XmIAYkxPUc
 
 1. create a new project folder
 2. `npm init -y`
