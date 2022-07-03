@@ -13,6 +13,7 @@ app.use(express.static(path.resolve(__dirname, '../client/build')));
 
 // api calls
 app.get("/api", (req, res) => {
+	// use secret api keys with process.env.MY_SECRET_FAKE_API_KEY
   res.json({ message: `I shouldn't be showing you this ${process.env.MY_SECRET_FAKE_API_KEY}` });
 });
 
